@@ -3,4 +3,4 @@ A repo for the collection of routines to carry out tests on the shear catalogues
 
 # Usage
 
-Place any routines necessary to produce plots (that don't actually produce them) in the `modules` directories. Place scripts and routines to produce plots in the `plotters` directory. If possible, please try to use a naming convention that ties to specific tests, as detailed in the WL-1 and WL-2 test document.
+Place any routines necessary to produce plots in the `modules` directories: this can include anything that returns a figure / axes, as well as modules which produce necessary data for plots. Place scripts to output plots in the `plotters` directory. If possible, please try to use a naming convention that ties to specific tests, as detailed in the WL-1 and WL-2 test document.
